@@ -1,0 +1,272 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    overflow: hidden;
+    background-color: #47484B;
+    height: 100px;
+    width: 100%;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+}
+
+.logo h1{
+    font-family: 'Mina', sans-serif;
+   color: white;
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.logo h2{
+        font-family: 'Mina', sans-serif;
+    color: #1D99D7;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-top: -5px;
+}
+
+.nav_bar{
+       font-family: 'Mina', sans-serif;
+    float: right;
+    width: 70%;
+    padding: 11px 0px;
+    border: 1px solid #1D99D7;
+    border-radius: 100px;
+    margin-right: 17px;
+    margin-top: 25px;
+}
+.nav_bar ul{
+    list-style: none;
+    float: right;
+    
+}
+.nav_bar ul li{
+    float: left;
+}
+.nav_bar ul li a{
+      text-decoration: none;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-right: 34px;
+    
+}
+.nav_bar ul li a:hover{
+    color: #1D99D7;
+    transform: scale(1);
+    transition: 1s;
+}
+
+.nav ul li:last-child a {
+    padding-right: 0px;
+}
+
+.slider{
+    overflow: hidden;
+    height: 600px;
+    background-image: url(../img/cyc.jpg);
+    background-size: auto;
+}
+.wrapper{}
+.slider h1{
+    font-family: 'Mina', sans-serif;
+        color: red;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 200px;
+    margin-left: 90px;
+}
+.slider h2{
+    font-family: 'Mina', sans-serif;
+        font-size: 30px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.btn1{
+    font-family: 'Mina', sans-serif;
+        margin: 26px 355px;
+    font-size: 32px;
+    border: 2px solid black;
+    background: none;
+    color: firebrick;
+    width: 27%;
+    border-radius: 24px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: initial;
+}
+
+.btn1:hover{
+    color: black;
+    background: #3E83D7;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+.content {
+    overflow: hidden;
+    height: 442px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.content h1{
+    font-family: 'Mina', sans-serif;
+           color: blue;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 70px;
+    margin-left: 90px;
+    text-align: center;
+}
+.xnx{
+    font-family: 'Acme', sans-serif;
+        color: #333333;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 100;
+    margin-top: 30px;
+    margin-left: 90px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.content_body {
+    height: 300px;
+    width: 90%;
+}
+
+.content_text {
+    font-family: 'Acme', sans-serif;
+    width: 25%;
+    float: left;
+    margin: 0 auto;
+    padding-top: 58px;
+    padding-right: 100px;
+   
+}
+.content_text img{
+           padding: 30px 0px 0px 149px;
+    width: 100px;
+    float: left;
+    margin-right: 30px;;
+          
+}
+.content_text p{
+       width: 80%;
+    padding: 0px 200px;
+    padding-top: 33px;
+    font-size: 14px;
+    font-weight: bolder;
+    color: #2D2E30;
+}
+
+.deep{
+    overflow: hidden;
+    height: 780px;
+    background-image: url(../img/rrr.jpeg);
+    background-size: cover;
+}
+.deep h1{
+    font-family: 'Mina', sans-serif;
+    color: yellow;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 200px;
+    margin-left: 112px;
+}
+
+.deep p{
+    font-family: 'Mina', sans-serif;
+    color: #00FF24;
+    font-size: 30px;
+    margin-top: 5px;
+    margin-left: 330px;
+    font-weight: normal;
+}
+.btn2{
+       font-family: 'Playfair Display', serif;
+    margin: 50px 394px;
+    font-size: 20px;
+    border: 2px solid #00FF24;
+    background: none;
+    color: yellow;
+    width: 29%;
+    border-radius: 24px;
+    font-weight: bolder;
+    text-align: center;
+    text-transform: unset;
+    height: 50px;
+}
+
+.btn2:hover{
+    color: orangered;
+    background-color: white;
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+
+.footer2 {
+    font-family: 'Playfair Display', serif;
+    overflow: hidden;
+    background-color: darkgray;
+    padding-bottom: 30px;
+}
+
+.left_info {
+    float: left;
+    width: 50%;
+    padding-bottom: 30px;
+};
+
+.left_info ul,
+.right_info ul {
+    list-style: none;
+}
+
+.left_info ul li,
+.right_info ul li {
+    float: left;
+}
+
+.left_info ul li a,
+.right_info ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+    padding: 25px;
+}
+
+.right_info ul {
+    float: right;
+}
+
+.right_info {
+    float: right;
+    width: 50%;
+}
